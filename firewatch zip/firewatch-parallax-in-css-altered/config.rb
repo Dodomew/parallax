@@ -1,12 +1,15 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/"
-css_dir = "css"
-sass_dir = "sass"
-images_dir = "images"
-javascripts_dir = "js"
-fonts_dir = "fonts"
+http_path = '/'
+#project_path = 'assets'
+css_dir = 'css'
+sass_dir = 'scss'
+scss_dir = 'scss'
+javascript_dir = 'scripts'
+fonts_dir = 'fonts'
+images_dir = 'images'
+add_import_path = '../bower_components'
 
 output_style = :expanded
 

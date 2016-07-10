@@ -5,14 +5,12 @@
 
 /* line 7, ../scss/style.scss */
 html,
-body 
-{
-  background-color: rgb(189,231,233);
+body {
+  background-color: #0096dc;
 }
 
-/* line 12, ../scss/style.scss */
-.parallax 
-{
+/* line 13, ../scss/style.scss */
+.parallax {
   perspective: 100px;
   height: 100vh;
   overflow-x: hidden;
@@ -22,32 +20,27 @@ body
   left: 50%;
   right: 0;
   bottom: 0;
-  margin-left: -1500px;
+  margin-left: -1420px;
 }
 
-/* line 25, ../scss/style.scss */
-.parallax__layer 
-{
+/* line 27, ../scss/style.scss */
+.parallax__layer {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
-
-/* line 32, ../scss/style.scss */
-.parallax__layer img 
-{
+/* line 35, ../scss/style.scss */
+.parallax__layer img {
   display: block;
   position: absolute;
   bottom: 0;
 }
 
-/* line 39, ../scss/style.scss */
-.parallax__cover 
-{
-  /*background: #2D112B;*/
-    background: rgb(166,143,121);
+/* line 43, ../scss/style.scss */
+.parallax__cover {
+  background: #783561;
   position: absolute;
   top: 100%;
   left: 0;
@@ -56,44 +49,37 @@ body
   z-index: 2;
 }
 
-/* line 53, ../scss/style.scss */
-.parallax__layer__0 
-{
+/* line 58, ../scss/style.scss */
+.parallax__layer__0 {
   transform: translateZ(-300px) scale(4);
 }
 
-/* line 53, ../scss/style.scss */
-.parallax__layer__1 
-{
+/* line 58, ../scss/style.scss */
+.parallax__layer__1 {
   transform: translateZ(-250px) scale(3.5);
 }
 
-/* line 53, ../scss/style.scss */
-.parallax__layer__2 
-{
+/* line 58, ../scss/style.scss */
+.parallax__layer__2 {
   transform: translateZ(-200px) scale(3);
 }
 
-/* line 53, ../scss/style.scss */
-.parallax__layer__3 
-{
+/* line 58, ../scss/style.scss */
+.parallax__layer__3 {
   transform: translateZ(-150px) scale(2.5);
 }
 
-/* line 53, ../scss/style.scss */
-.parallax__layer__4 
-{
+/* line 58, ../scss/style.scss */
+.parallax__layer__4 {
   transform: translateZ(-100px) scale(2);
 }
 
-/* line 53, ../scss/style.scss */
-.parallax__layer__5 
-{
+/* line 58, ../scss/style.scss */
+.parallax__layer__5 {
   transform: translateZ(-50px) scale(1.5);
 }
 
-/* line 53, ../scss/style.scss */
-.parallax__layer__6 
-{
+/* line 58, ../scss/style.scss */
+.parallax__layer__6 {
   transform: translateZ(0px) scale(1);
 }
