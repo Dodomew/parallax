@@ -7,12 +7,13 @@
 html,
 body {
   background-color: #0096dc;
+  height: 4096px;
 }
 
-/* line 13, ../scss/style.scss */
+/* line 16, ../scss/style.scss */
 .parallax {
   perspective: 100px;
-  height: 100vh;
+  height: inherit;
   overflow-x: hidden;
   overflow-y: auto;
   position: absolute;
@@ -23,7 +24,7 @@ body {
   margin-left: -1420px;
 }
 
-/* line 27, ../scss/style.scss */
+/* line 30, ../scss/style.scss */
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -31,55 +32,55 @@ body {
   bottom: 0;
   left: 0;
 }
-/* line 35, ../scss/style.scss */
+/* line 38, ../scss/style.scss */
 .parallax__layer img {
   display: block;
   position: absolute;
   bottom: 0;
 }
 
-/* line 43, ../scss/style.scss */
-.parallax__cover {
-  background: #783561;
+/*.parallax__cover
+{
+  background: rgb(120,53,97);
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
-  height: 2000px;
+  height: 20px;
   z-index: 2;
 }
-
-/* line 58, ../scss/style.scss */
+*/
+/* line 64, ../scss/style.scss */
 .parallax__layer__0 {
   transform: translateZ(-300px) scale(4);
 }
 
-/* line 58, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .parallax__layer__1 {
   transform: translateZ(-250px) scale(3.5);
 }
 
-/* line 58, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .parallax__layer__2 {
   transform: translateZ(-200px) scale(3);
 }
 
-/* line 58, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .parallax__layer__3 {
   transform: translateZ(-150px) scale(2.5);
 }
 
-/* line 58, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .parallax__layer__4 {
   transform: translateZ(-100px) scale(2);
 }
 
-/* line 58, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .parallax__layer__5 {
   transform: translateZ(-50px) scale(1.5);
 }
 
-/* line 58, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
 .parallax__layer__6 {
   transform: translateZ(0px) scale(1);
 }

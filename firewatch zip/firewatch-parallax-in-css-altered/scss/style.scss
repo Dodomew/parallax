@@ -7,16 +7,19 @@
 html,
 body
 {
-  background-color: rgb(0,150,220);
+    background-color: rgb(0,150,220);
+    height: 4096px;
+    //background-image: url("http://imgur.com/X1gJFbB.png");
+    //background-repeat: repeat;
 }
 
 .parallax 
 {
   perspective: 100px;
-  height: 100vh;
+  height: inherit;
   overflow-x: hidden;
   overflow-y: auto;
-  position: absolute;
+    position: absolute;
   top: 0;
   left: 50%;
   right: 0;
@@ -40,16 +43,19 @@ body
     }
 }
 
-.parallax__cover
+/*.parallax__cover
 {
   background: rgb(120,53,97);
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
-  height: 2000px;
+  height: 20px;
   z-index: 2;
 }
+*/
+
+
 
 $parallax__layers: 6;
 
